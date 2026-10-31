@@ -1,0 +1,13 @@
+promo_id,promo_type,start_date,end_date,discount_percent
+PROMO001,Festive Sale,2026-01-10,2026-01-26,20
+PROMO002,Republic Day Sale,2026-01-23,2026-01-27,15
+PROMO003,Valentine Special,2026-02-10,2026-02-14,10
+PROMO004,End of Season Sale,2026-03-01,2026-03-15,30
+PROMO005,Summer Sale,2026-04-01,2026-04-20,25
+PROMO006,Weekend Special,2026-05-08,2026-05-10,10
+PROMO007,Monsoon Sale,2026-06-15,2026-06-30,20
+PROMO008,Independence Day Sale,2026-08-10,2026-08-16,15
+PROMO009,Festive Fashion Sale,2026-09-20,2026-10-05,25
+PROMO010,Diwali Sale,2026-10-18,2026-11-02,30
+PROMO011,Winter Collection Sale,2026-11-15,2026-11-30,20
+PROMO012,Year End Sale,2026-12-20,2026-12-31,35

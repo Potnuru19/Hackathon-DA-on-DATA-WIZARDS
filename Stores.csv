@@ -1,0 +1,501 @@
+transaction_id,date,store_id,city,store_type,store_area_sqft,product_category,product_name,units_sold,unit_price_inr,discount_percent,sales_revenue_inr,customer_segment,payment_method,daily_store_footfall,conversion_rate,stock_remaining_units
+TXN00370,2026-01-01,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jeans,3,799,10,2157.3,New,Cash,44,0.252,98
+TXN00172,2026-01-02,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jeans,2,1599,5,3038.1,New,Cash,39,0.38,131
+TXN00218,2026-01-02,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jeans,3,1299,30,2727.9,Loyal,Credit Card,106,0.296,5
+TXN00049,2026-01-02,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Frock,1,599,10,539.1,Loyal,UPI,152,0.373,62
+TXN00274,2026-01-04,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Sneakers,3,799,10,2157.3,New,Cash,102,0.212,64
+TXN00415,2026-01-04,JACK$,Visakhapatnam,Shopping Mall,3000,Men,T-Shirt,2,2499,0,4998.0,New,Credit Card,92,0.196,126
+TXN00106,2026-01-05,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jacket,4,1999,25,5997.0,Returning,UPI,156,0.192,99
+TXN00347,2026-01-05,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Shirt,2,2499,10,4498.2,New,Debit Card,114,0.106,1
+TXN00283,2026-01-06,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Heels,4,2499,20,7996.8,New,Debit Card,138,0.368,90
+TXN00078,2026-01-09,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids T-Shirt,4,599,5,2276.2,Loyal,Credit Card,127,0.301,116
+TXN00224,2026-01-09,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Handbag,5,299,20,1196.0,Loyal,Credit Card,137,0.404,7
+TXN00405,2026-01-10,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Kurti,4,1599,5,6076.2,Loyal,Debit Card,159,0.207,106
+TXN00433,2026-01-12,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids T-Shirt,6,1999,20,9595.2,New,Credit Card,141,0.119,79
+TXN00466,2026-01-13,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Sneakers,3,2499,15,6372.45,New,Debit Card,156,0.107,122
+TXN00126,2026-01-13,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Handbag,3,1999,15,5097.45,Returning,Credit Card,69,0.157,10
+TXN00320,2026-01-13,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Kurti,6,499,10,2694.6,Returning,UPI,97,0.265,130
+TXN00039,2026-01-14,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Sneakers,4,1299,15,4416.6,New,Credit Card,72,0.336,32
+TXN00075,2026-01-15,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Top,1,2499,0,2499.0,New,Debit Card,137,0.258,64
+TXN00111,2026-01-15,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Handbag,4,499,15,1696.6,Loyal,Cash,74,0.364,98
+TXN00416,2026-01-16,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jeans,2,499,5,948.1,New,Cash,119,0.364,134
+TXN00278,2026-01-17,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Handbag,3,299,0,897.0,Returning,Cash,109,0.35,10
+TXN00299,2026-01-18,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Dress,2,1299,20,2078.4,New,Credit Card,91,0.173,72
+TXN00475,2026-01-19,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Formal Shoes,5,2499,25,9371.25,Returning,Credit Card,152,0.328,50
+TXN00323,2026-01-20,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids Jeans,2,1599,10,2878.2,Returning,Debit Card,141,0.398,91
+TXN00035,2026-01-21,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jacket,5,1599,20,6396.0,New,UPI,48,0.352,34
+TXN00006,2026-01-21,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jeans,4,799,0,3196.0,Returning,Credit Card,54,0.106,46
+TXN00258,2026-01-22,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Dress,2,1599,0,3198.0,New,Debit Card,103,0.4,63
+TXN00020,2026-01-22,JACK$,Visakhapatnam,Shopping Mall,3000,Men,T-Shirt,3,499,10,1347.3,Loyal,Credit Card,95,0.145,146
+TXN00403,2026-01-23,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Frock,5,2499,10,11245.5,New,UPI,93,0.303,145
+TXN00488,2026-01-25,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids T-Shirt,5,1999,5,9495.25,Loyal,Debit Card,50,0.193,120
+TXN00319,2026-01-26,JACK$,Visakhapatnam,Shopping Mall,3000,Accessories,Cap,5,399,20,1596.0,New,Cash,92,0.283,15
+TXN00266,2026-01-27,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jacket,5,499,15,2120.75,Returning,Debit Card,83,0.118,137
+TXN00089,2026-01-28,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jeans,1,399,10,359.1,New,Cash,94,0.141,36
+TXN00138,2026-01-28,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids Jeans,2,1299,20,2078.4,Returning,UPI,70,0.109,96
+TXN00124,2026-01-29,JACK$,Visakhapatnam,Shopping Mall,3000,Men,T-Shirt,3,599,15,1527.45,Returning,Credit Card,136,0.191,101
+TXN00424,2026-02-02,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids T-Shirt,3,999,5,2847.15,New,Debit Card,56,0.195,110
+TXN00256,2026-02-02,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Sneakers,6,599,0,3594.0,New,Credit Card,42,0.172,118
+TXN00093,2026-02-02,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Handbag,5,599,20,2396.0,Loyal,Credit Card,118,0.303,26
+TXN00045,2026-02-04,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Handbag,5,2499,20,9996.0,New,Debit Card,91,0.193,54
+TXN00438,2026-02-04,JACK$,Visakhapatnam,Shopping Mall,3000,Accessories,Belt,1,599,15,509.15,New,Debit Card,72,0.181,108
+TXN00101,2026-02-04,JACK$,Visakhapatnam,Shopping Mall,3000,Accessories,Sunglasses,4,299,15,1016.6,Loyal,Credit Card,131,0.256,32
+TXN00275,2026-02-04,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Top,1,1999,15,1699.15,Returning,UPI,60,0.13,4
+TXN00457,2026-02-05,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Handbag,3,1599,10,4317.3,Returning,Cash,70,0.264,122
+TXN00125,2026-02-05,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Sneakers,3,299,0,897.0,Returning,Credit Card,88,0.301,142
+TXN00321,2026-02-05,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Shirt,6,1599,0,9594.0,Returning,UPI,107,0.15,106
+TXN00463,2026-02-06,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jacket,6,399,15,2034.9,Returning,Debit Card,142,0.096,121
+TXN00286,2026-02-06,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Handbag,3,399,15,1017.45,Loyal,Debit Card,148,0.387,108
+TXN00222,2026-02-06,JACK$,Visakhapatnam,Shopping Mall,3000,Accessories,Belt,5,299,15,1270.75,Returning,UPI,122,0.261,58
+TXN00261,2026-02-07,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Sneakers,3,799,30,1677.9,New,UPI,142,0.124,24
+TXN00398,2026-02-08,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Sandals,1,1599,0,1599.0,New,Credit Card,64,0.374,107
+TXN00207,2026-02-08,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Sneakers,3,1999,5,5697.15,Loyal,Debit Card,80,0.338,144
+TXN00493,2026-02-08,JACK$,Visakhapatnam,Shopping Mall,3000,Men,T-Shirt,5,2499,15,10620.75,Returning,Credit Card,140,0.327,98
+TXN00316,2026-02-08,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Sandals,6,999,0,5994.0,Loyal,Cash,148,0.333,84
+TXN00088,2026-02-10,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Kurti,5,299,15,1270.75,Loyal,Cash,138,0.168,87
+TXN00073,2026-02-10,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids T-Shirt,5,2499,25,9371.25,New,Debit Card,89,0.237,33
+TXN00112,2026-02-11,JACK$,Visakhapatnam,Shopping Mall,3000,Accessories,Wallet,4,399,0,1596.0,New,Cash,103,0.104,40
+TXN00496,2026-02-11,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Dress,6,1599,20,7675.2,Returning,UPI,114,0.355,41
+TXN00430,2026-02-12,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Sandals,4,499,0,1996.0,Loyal,Cash,74,0.112,74
+TXN00055,2026-02-13,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jeans,2,1299,20,2078.4,Loyal,UPI,119,0.089,124
+TXN00431,2026-02-13,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Shirt,1,999,15,849.15,Returning,Cash,178,0.082,29
+TXN00140,2026-02-13,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Sneakers,6,1599,15,8154.9,New,Credit Card,78,0.19,2
+TXN00134,2026-02-14,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids Jeans,1,2499,25,1874.25,New,Cash,83,0.161,36
+TXN00282,2026-02-15,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Frock,1,599,15,509.15,New,Credit Card,120,0.371,43
+TXN00351,2026-02-16,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Formal Shoes,5,1599,20,6396.0,Loyal,Cash,168,0.226,109
+TXN00393,2026-02-16,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Frock,2,599,20,958.4,New,UPI,166,0.187,111
+TXN00376,2026-02-17,JACK$,Visakhapatnam,Shopping Mall,3000,Men,T-Shirt,5,999,0,4995.0,New,Credit Card,154,0.143,130
+TXN00094,2026-02-17,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jacket,5,799,25,2996.25,Loyal,UPI,135,0.297,5
+TXN00277,2026-02-18,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids Jeans,6,399,15,2034.9,New,UPI,80,0.227,2
+TXN00023,2026-02-18,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Dress,2,599,20,958.4,Returning,Credit Card,147,0.283,46
+TXN00048,2026-02-19,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jacket,6,799,25,3595.5,New,Credit Card,63,0.277,149
+TXN00263,2026-02-20,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Kurti,6,499,10,2694.6,Returning,UPI,158,0.372,12
+TXN00330,2026-02-20,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Dress,6,1999,0,11994.0,Returning,Cash,121,0.141,45
+TXN00030,2026-02-20,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jeans,4,599,0,2396.0,Loyal,Debit Card,152,0.168,61
+TXN00163,2026-02-21,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Schoolwear,3,2499,0,7497.0,New,Credit Card,128,0.362,7
+TXN00484,2026-02-21,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Shirt,2,299,10,538.2,New,UPI,122,0.257,0
+TXN00117,2026-02-21,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Heels,3,599,5,1707.15,Loyal,UPI,164,0.122,36
+TXN00042,2026-02-22,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Schoolwear,2,799,20,1278.4,Returning,Debit Card,108,0.196,133
+TXN00489,2026-02-22,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Frock,2,399,20,638.4,New,UPI,38,0.419,73
+TXN00344,2026-02-22,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Kurti,4,299,0,1196.0,Returning,Debit Card,78,0.332,70
+TXN00068,2026-02-22,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Heels,5,299,15,1270.75,Loyal,Cash,152,0.297,24
+TXN00180,2026-02-22,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jacket,1,1999,25,1499.25,Returning,Debit Card,79,0.139,3
+TXN00050,2026-02-23,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Handbag,6,1299,10,7014.6,Returning,UPI,96,0.15,28
+TXN00232,2026-02-23,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Shirt,1,999,15,849.15,New,Cash,68,0.137,6
+TXN00341,2026-02-23,JACK$,Visakhapatnam,Shopping Mall,3000,Accessories,Sunglasses,5,2499,10,11245.5,Returning,Debit Card,117,0.104,63
+TXN00175,2026-02-23,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Jeans,3,1299,10,3507.3,Returning,Cash,135,0.122,110
+TXN00302,2026-02-23,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Formal Shoes,4,1599,15,5436.6,Returning,UPI,117,0.32,82
+TXN00031,2026-02-24,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Kurti,3,799,0,2397.0,New,Debit Card,152,0.322,19
+TXN00492,2026-02-26,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Sneakers,5,2499,20,9996.0,Returning,UPI,123,0.132,19
+TXN00337,2026-02-27,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Sneakers,3,499,15,1272.45,New,UPI,151,0.155,25
+TXN00362,2026-02-27,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Dress,6,399,25,1795.5,Returning,Credit Card,60,0.332,107
+TXN00303,2026-02-27,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids Jeans,5,499,30,1746.5,New,Cash,114,0.125,88
+TXN00368,2026-02-27,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Shirt,6,1599,5,9114.3,Returning,Cash,90,0.124,38
+TXN00024,2026-02-28,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jacket,6,1599,20,7675.2,Returning,Debit Card,48,0.13,114
+TXN00217,2026-03-01,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Formal Shoes,4,1299,10,4676.4,Returning,Credit Card,62,0.16,75
+TXN00345,2026-03-01,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Sneakers,2,299,5,568.1,Loyal,UPI,165,0.227,89
+TXN00095,2026-03-03,JACK$,Visakhapatnam,Shopping Mall,3000,Accessories,Belt,2,999,5,1898.1,Returning,Debit Card,98,0.375,23
+TXN00471,2026-03-03,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Jeans,6,799,25,3595.5,Returning,Credit Card,52,0.396,42
+TXN00135,2026-03-03,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Heels,2,1999,0,3998.0,Loyal,Debit Card,103,0.137,107
+TXN00081,2026-03-04,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Formal Shoes,6,1599,20,7675.2,Loyal,Debit Card,123,0.282,141
+TXN00333,2026-03-04,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Shirt,6,1299,0,7794.0,Returning,Cash,161,0.16,142
+TXN00114,2026-03-04,JACK$,Visakhapatnam,Shopping Mall,3000,Men,T-Shirt,4,1599,10,5756.4,New,Credit Card,81,0.16,9
+TXN00077,2026-03-06,JACK$,Visakhapatnam,Shopping Mall,3000,Accessories,Watch,5,799,0,3995.0,Returning,Credit Card,73,0.379,45
+TXN00428,2026-03-06,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Kurti,4,1599,15,5436.6,New,Debit Card,178,0.299,106
+TXN00132,2026-03-07,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Formal Shoes,1,2499,0,2499.0,Loyal,UPI,70,0.224,117
+TXN00249,2026-03-09,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids T-Shirt,6,1299,0,7794.0,New,UPI,70,0.364,0
+TXN00392,2026-03-10,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Jeans,5,499,20,1996.0,Returning,Credit Card,147,0.082,104
+TXN00382,2026-03-10,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Sneakers,6,399,0,2394.0,Returning,Debit Card,128,0.15,54
+TXN00486,2026-03-10,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jacket,2,399,10,718.2,New,UPI,79,0.28,121
+TXN00004,2026-03-13,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids Jeans,2,499,0,998.0,New,Cash,175,0.218,125
+TXN00236,2026-03-16,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Sneakers,6,2499,25,11245.5,New,Debit Card,159,0.206,123
+TXN00448,2026-03-16,JACK$,Visakhapatnam,Shopping Mall,3000,Men,T-Shirt,4,1599,0,6396.0,Returning,Debit Card,73,0.412,10
+TXN00385,2026-03-17,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Frock,2,499,20,798.4,Loyal,Cash,129,0.343,84
+TXN00479,2026-03-17,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Jeans,3,1299,15,3312.45,New,UPI,111,0.282,86
+TXN00047,2026-03-22,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Sandals,2,1299,10,2338.2,Loyal,Credit Card,125,0.234,107
+TXN00169,2026-03-22,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Top,3,999,20,2397.6,Returning,Credit Card,123,0.399,28
+TXN00083,2026-03-22,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jacket,6,1599,15,8154.9,New,UPI,124,0.261,36
+TXN00472,2026-03-25,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Frock,1,499,10,449.1,New,Credit Card,145,0.221,67
+TXN00388,2026-03-27,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Top,4,999,5,3796.2,New,Cash,77,0.196,12
+TXN00130,2026-03-27,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Sneakers,4,799,5,3036.2,Returning,Credit Card,61,0.396,34
+TXN00010,2026-03-29,JACK$,Visakhapatnam,Shopping Mall,3000,Accessories,Cap,5,1999,10,8995.5,New,Cash,90,0.378,108
+TXN00038,2026-03-30,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Handbag,3,1299,0,3897.0,New,Debit Card,168,0.193,41
+TXN00377,2026-03-30,JACK$,Visakhapatnam,Shopping Mall,3000,Accessories,Watch,6,1599,15,8154.9,Loyal,Debit Card,96,0.129,31
+TXN00443,2026-03-31,JACK$,Visakhapatnam,Shopping Mall,3000,Accessories,Cap,1,1599,0,1599.0,Returning,UPI,121,0.108,53
+TXN00440,2026-03-31,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jacket,1,1999,10,1799.1,Loyal,Debit Card,78,0.301,108
+TXN00361,2026-04-02,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Frock,4,1599,20,5116.8,Returning,UPI,165,0.297,89
+TXN00043,2026-04-02,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Jeans,4,2499,15,8496.6,Loyal,UPI,145,0.327,99
+TXN00327,2026-04-02,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jacket,4,1599,15,5436.6,Loyal,UPI,55,0.332,121
+TXN00442,2026-04-03,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Handbag,3,599,15,1527.45,Returning,UPI,63,0.109,94
+TXN00394,2026-04-04,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Frock,2,799,10,1438.2,New,Debit Card,150,0.121,115
+TXN00434,2026-04-05,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Top,1,2499,0,2499.0,Returning,Credit Card,130,0.354,19
+TXN00290,2026-04-05,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Shirt,6,1999,10,10794.6,Returning,Cash,156,0.4,128
+TXN00413,2026-04-06,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Jeans,5,2499,0,12495.0,Returning,UPI,94,0.145,13
+TXN00118,2026-04-06,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Frock,6,799,25,3595.5,New,UPI,103,0.115,11
+TXN00458,2026-04-06,JACK$,Visakhapatnam,Shopping Mall,3000,Accessories,Wallet,4,499,0,1996.0,Returning,Credit Card,65,0.283,16
+TXN00159,2026-04-06,JACK$,Visakhapatnam,Shopping Mall,3000,Men,T-Shirt,1,1999,15,1699.15,Loyal,Credit Card,94,0.106,96
+TXN00373,2026-04-06,JACK$,Visakhapatnam,Shopping Mall,3000,Accessories,Belt,4,2499,0,9996.0,Returning,Debit Card,116,0.24,75
+TXN00270,2026-04-07,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Dress,2,1299,10,2338.2,Returning,UPI,160,0.274,42
+TXN00196,2026-04-07,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Top,1,2499,10,2249.1,Loyal,Credit Card,40,0.206,22
+TXN00192,2026-04-08,JACK$,Visakhapatnam,Shopping Mall,3000,Men,T-Shirt,2,2499,10,4498.2,New,Debit Card,146,0.236,85
+TXN00291,2026-04-09,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Formal Shoes,5,599,15,2545.75,New,UPI,58,0.2,3
+TXN00226,2026-04-09,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jacket,4,299,0,1196.0,Loyal,Debit Card,156,0.189,40
+TXN00284,2026-04-09,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Shirt,4,2499,25,7497.0,Loyal,UPI,68,0.418,88
+TXN00242,2026-04-09,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Top,6,499,0,2994.0,Returning,Debit Card,125,0.389,10
+TXN00212,2026-04-09,JACK$,Visakhapatnam,Shopping Mall,3000,Men,T-Shirt,4,1999,20,6396.8,Returning,Cash,87,0.181,77
+TXN00487,2026-04-09,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jeans,2,1999,5,3798.1,Returning,Cash,122,0.216,72
+TXN00456,2026-04-09,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Kurti,6,599,5,3414.3,Returning,Credit Card,38,0.33,3
+TXN00098,2026-04-09,JACK$,Visakhapatnam,Shopping Mall,3000,Men,T-Shirt,6,599,10,3234.6,Returning,Cash,97,0.302,116
+TXN00399,2026-04-10,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Heels,5,999,10,4495.5,New,Cash,128,0.168,30
+TXN00011,2026-04-10,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Dress,2,299,10,538.2,Loyal,UPI,60,0.21,85
+TXN00477,2026-04-10,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jeans,3,399,15,1017.45,Returning,Credit Card,114,0.31,125
+TXN00407,2026-04-10,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Sandals,4,2499,0,9996.0,Returning,Debit Card,65,0.113,135
+TXN00426,2026-04-11,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Kurti,4,399,0,1596.0,New,Credit Card,171,0.133,134
+TXN00342,2026-04-11,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Jeans,4,599,0,2396.0,Returning,UPI,141,0.396,129
+TXN00167,2026-04-11,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Top,2,1999,0,3998.0,Returning,Debit Card,66,0.249,112
+TXN00103,2026-04-11,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jacket,1,1599,15,1359.15,Returning,Debit Card,157,0.091,5
+TXN00007,2026-04-13,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Dress,5,999,15,4245.75,Loyal,Cash,178,0.331,11
+TXN00001,2026-04-13,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids T-Shirt,3,399,30,837.9,New,Debit Card,43,0.339,144
+TXN00348,2026-04-13,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Sandals,6,299,5,1704.3,New,UPI,72,0.261,60
+TXN00312,2026-04-14,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Frock,4,499,15,1696.6,Returning,Debit Card,87,0.085,66
+TXN00238,2026-04-14,JACK$,Visakhapatnam,Shopping Mall,3000,Accessories,Sunglasses,5,799,10,3595.5,New,Debit Card,175,0.264,85
+TXN00445,2026-04-15,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Heels,5,499,10,2245.5,New,Debit Card,142,0.316,108
+TXN00051,2026-04-16,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Jeans,2,299,20,478.4,New,Cash,147,0.216,62
+TXN00355,2026-04-16,JACK$,Visakhapatnam,Shopping Mall,3000,Accessories,Belt,4,1299,20,4156.8,Returning,Debit Card,133,0.399,84
+TXN00003,2026-04-17,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Top,1,1299,30,909.3,Loyal,Credit Card,166,0.199,18
+TXN00139,2026-04-18,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Jeans,6,1999,15,10194.9,Returning,Cash,47,0.256,129
+TXN00346,2026-04-18,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Kurti,4,2499,10,8996.4,Returning,UPI,45,0.172,7
+TXN00494,2026-04-19,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Handbag,3,999,10,2697.3,Loyal,UPI,160,0.148,143
+TXN00216,2026-04-22,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Top,6,1999,10,10794.6,Returning,Cash,86,0.231,20
+TXN00241,2026-04-22,JACK$,Visakhapatnam,Shopping Mall,3000,Accessories,Sunglasses,2,1599,10,2878.2,New,UPI,53,0.148,84
+TXN00166,2026-04-23,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids T-Shirt,4,399,0,1596.0,New,UPI,49,0.118,145
+TXN00168,2026-04-23,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids Jeans,1,1999,15,1699.15,Loyal,Cash,175,0.155,125
+TXN00237,2026-04-23,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Kurti,4,1999,30,5597.2,Returning,UPI,111,0.286,125
+TXN00171,2026-04-23,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Frock,6,499,0,2994.0,Loyal,UPI,64,0.377,110
+TXN00162,2026-04-23,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Formal Shoes,1,799,10,719.1,Loyal,Debit Card,92,0.237,138
+TXN00306,2026-04-24,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jacket,1,999,10,899.1,New,Debit Card,91,0.379,68
+TXN00447,2026-04-24,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids Jeans,3,499,5,1422.15,Returning,Debit Card,76,0.258,114
+TXN00444,2026-04-25,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Shirt,4,499,20,1596.8,Returning,UPI,92,0.242,128
+TXN00235,2026-04-26,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Shirt,3,599,0,1797.0,New,Debit Card,141,0.212,50
+TXN00293,2026-04-26,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Handbag,1,2499,5,2374.05,Returning,Cash,137,0.183,60
+TXN00148,2026-04-26,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Dress,5,499,0,2495.0,Returning,Credit Card,164,0.156,19
+TXN00364,2026-04-27,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Formal Shoes,3,799,20,1917.6,Loyal,Debit Card,107,0.419,36
+TXN00375,2026-04-28,JACK$,Visakhapatnam,Shopping Mall,3000,Men,T-Shirt,1,799,10,719.1,Loyal,Credit Card,111,0.277,89
+TXN00359,2026-04-30,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Jeans,5,799,0,3995.0,New,Cash,93,0.317,149
+TXN00233,2026-04-30,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Formal Shoes,4,499,0,1996.0,Returning,UPI,180,0.297,125
+TXN00147,2026-05-01,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Top,2,299,0,598.0,New,Debit Card,116,0.294,133
+TXN00008,2026-05-02,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Heels,4,799,5,3036.2,Returning,Credit Card,126,0.3,135
+TXN00499,2026-05-02,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Jeans,3,599,5,1707.15,Returning,Debit Card,93,0.353,108
+TXN00369,2026-05-02,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Schoolwear,4,799,0,3196.0,Loyal,Cash,38,0.13,126
+TXN00188,2026-05-03,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Handbag,2,2499,10,4498.2,Loyal,UPI,162,0.292,57
+TXN00354,2026-05-04,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jacket,3,799,20,1917.6,New,Credit Card,82,0.186,85
+TXN00198,2026-05-04,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Dress,6,1599,10,8634.6,New,Cash,94,0.317,11
+TXN00335,2026-05-05,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Handbag,5,299,10,1345.5,Loyal,UPI,95,0.195,127
+TXN00178,2026-05-06,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Top,4,1599,15,5436.6,New,Debit Card,116,0.285,59
+TXN00374,2026-05-06,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids T-Shirt,3,399,0,1197.0,Returning,Cash,73,0.234,88
+TXN00309,2026-05-07,JACK$,Visakhapatnam,Shopping Mall,3000,Accessories,Belt,1,1599,0,1599.0,New,Credit Card,51,0.115,57
+TXN00366,2026-05-07,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Jeans,2,399,10,718.2,New,Cash,92,0.158,19
+TXN00142,2026-05-08,JACK$,Visakhapatnam,Shopping Mall,3000,Accessories,Watch,1,1299,10,1169.1,New,Cash,155,0.359,11
+TXN00255,2026-05-08,JACK$,Visakhapatnam,Shopping Mall,3000,Men,T-Shirt,6,2499,15,12744.9,New,Cash,88,0.104,113
+TXN00298,2026-05-08,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Dress,3,599,30,1257.9,New,Debit Card,161,0.361,103
+TXN00206,2026-05-08,JACK$,Visakhapatnam,Shopping Mall,3000,Men,T-Shirt,4,299,20,956.8,Returning,UPI,121,0.106,66
+TXN00367,2026-05-09,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jacket,5,599,30,2096.5,Returning,Cash,160,0.136,71
+TXN00208,2026-05-09,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jeans,3,299,25,672.75,Returning,Cash,125,0.213,45
+TXN00079,2026-05-09,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jeans,1,2499,0,2499.0,New,Debit Card,37,0.361,4
+TXN00173,2026-05-10,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Sandals,3,1999,15,5097.45,Returning,UPI,162,0.357,65
+TXN00179,2026-05-10,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Sneakers,4,2499,15,8496.6,New,Debit Card,134,0.256,93
+TXN00230,2026-05-11,JACK$,Visakhapatnam,Shopping Mall,3000,Men,T-Shirt,1,999,20,799.2,New,UPI,141,0.226,98
+TXN00013,2026-05-11,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Handbag,5,799,20,3196.0,New,UPI,117,0.164,77
+TXN00104,2026-05-11,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Kurti,4,1599,25,4797.0,Returning,Debit Card,126,0.353,61
+TXN00033,2026-05-11,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Handbag,2,399,10,718.2,Returning,UPI,164,0.11,62
+TXN00500,2026-05-13,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jacket,3,499,0,1497.0,Returning,Credit Card,138,0.372,0
+TXN00136,2026-05-14,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Handbag,3,1299,15,3312.45,Returning,Credit Card,172,0.167,76
+TXN00034,2026-05-15,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Shirt,6,299,20,1435.2,New,Debit Card,112,0.397,136
+TXN00253,2026-05-15,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Frock,4,399,5,1516.2,Returning,Debit Card,170,0.179,119
+TXN00090,2026-05-15,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jacket,2,599,5,1138.1,Returning,UPI,51,0.342,144
+TXN00080,2026-05-16,JACK$,Visakhapatnam,Shopping Mall,3000,Men,T-Shirt,3,599,30,1257.9,Returning,Cash,95,0.168,81
+TXN00152,2026-05-17,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Frock,3,799,20,1917.6,Loyal,UPI,44,0.152,125
+TXN00082,2026-05-19,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Formal Shoes,3,1999,0,5997.0,Loyal,Debit Card,110,0.092,39
+TXN00221,2026-05-20,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Heels,4,299,10,1076.4,Returning,Credit Card,119,0.229,61
+TXN00325,2026-05-22,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Shirt,6,999,15,5094.9,New,UPI,163,0.394,84
+TXN00326,2026-05-23,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Heels,5,399,25,1496.25,New,UPI,143,0.361,82
+TXN00122,2026-05-23,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Heels,1,1599,20,1279.2,Returning,UPI,67,0.284,30
+TXN00195,2026-05-24,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Sneakers,1,1599,30,1119.3,New,Credit Card,60,0.27,65
+TXN00215,2026-05-24,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jacket,1,799,0,799.0,New,Debit Card,171,0.308,64
+TXN00491,2026-05-24,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Handbag,2,1599,0,3198.0,New,Cash,164,0.311,59
+TXN00485,2026-05-24,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Jeans,2,1999,5,3798.1,Returning,Debit Card,59,0.335,72
+TXN00352,2026-05-24,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Frock,5,999,0,4995.0,New,Cash,42,0.165,124
+TXN00387,2026-05-24,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Kurti,3,1299,5,3702.15,Loyal,Debit Card,51,0.302,27
+TXN00358,2026-05-25,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Heels,6,1999,10,10794.6,Returning,Credit Card,66,0.235,145
+TXN00227,2026-05-27,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids Jeans,2,499,15,848.3,Loyal,UPI,44,0.251,50
+TXN00357,2026-05-27,JACK$,Visakhapatnam,Shopping Mall,3000,Accessories,Wallet,4,799,15,2716.6,Returning,Credit Card,167,0.419,11
+TXN00412,2026-05-27,JACK$,Visakhapatnam,Shopping Mall,3000,Accessories,Sunglasses,4,299,20,956.8,Loyal,Cash,167,0.371,34
+TXN00203,2026-05-27,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jacket,4,1999,10,7196.4,Loyal,Credit Card,142,0.236,130
+TXN00273,2026-05-27,JACK$,Visakhapatnam,Shopping Mall,3000,Accessories,Wallet,3,999,10,2697.3,Loyal,UPI,93,0.327,105
+TXN00204,2026-05-28,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Sneakers,4,1599,0,6396.0,Returning,UPI,68,0.198,81
+TXN00201,2026-05-28,JACK$,Visakhapatnam,Shopping Mall,3000,Accessories,Watch,5,799,20,3196.0,New,Debit Card,38,0.419,58
+TXN00336,2026-05-30,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Sneakers,2,299,15,508.3,Loyal,Credit Card,92,0.253,52
+TXN00014,2026-05-30,JACK$,Visakhapatnam,Shopping Mall,3000,Accessories,Watch,4,299,15,1016.6,New,Credit Card,66,0.096,94
+TXN00460,2026-05-31,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Sneakers,5,299,10,1345.5,Returning,Cash,124,0.41,133
+TXN00308,2026-05-31,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids Jeans,6,1299,10,7014.6,New,Credit Card,88,0.284,147
+TXN00490,2026-05-31,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Heels,6,1999,0,11994.0,Loyal,Cash,45,0.155,41
+TXN00210,2026-05-31,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids Jeans,3,499,20,1197.6,Returning,UPI,62,0.086,70
+TXN00421,2026-06-01,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids T-Shirt,6,1299,5,7404.3,Loyal,UPI,105,0.097,123
+TXN00157,2026-06-01,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Sneakers,2,399,15,678.3,Returning,Cash,116,0.102,138
+TXN00459,2026-06-01,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Frock,1,599,5,569.05,Loyal,Cash,56,0.242,107
+TXN00012,2026-06-01,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Sandals,1,499,0,499.0,Returning,Debit Card,89,0.374,94
+TXN00231,2026-06-01,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Kurti,6,399,10,2154.6,New,Cash,113,0.338,22
+TXN00243,2026-06-02,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Sneakers,6,1299,0,7794.0,Loyal,Debit Card,54,0.239,11
+TXN00331,2026-06-02,JACK$,Visakhapatnam,Shopping Mall,3000,Men,T-Shirt,5,399,10,1795.5,Returning,Credit Card,142,0.255,149
+TXN00386,2026-06-03,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Kurti,6,799,20,3835.2,New,UPI,88,0.11,114
+TXN00310,2026-06-04,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Kurti,2,599,10,1078.2,Returning,Debit Card,105,0.17,9
+TXN00074,2026-06-06,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jeans,3,1299,0,3897.0,Returning,UPI,63,0.341,61
+TXN00281,2026-06-07,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Kurti,2,1299,10,2338.2,New,Credit Card,140,0.242,95
+TXN00356,2026-06-07,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Handbag,5,499,10,2245.5,Returning,Debit Card,108,0.127,19
+TXN00260,2026-06-07,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Top,3,799,0,2397.0,Returning,Debit Card,94,0.295,119
+TXN00127,2026-06-09,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids Jeans,6,1999,10,10794.6,Loyal,UPI,60,0.404,116
+TXN00223,2026-06-09,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Shirt,6,499,10,2694.6,Returning,Debit Card,161,0.173,0
+TXN00158,2026-06-09,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Sneakers,2,599,25,898.5,Loyal,UPI,146,0.331,41
+TXN00183,2026-06-09,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Sandals,3,799,20,1917.6,Returning,Credit Card,83,0.228,4
+TXN00420,2026-06-09,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Jeans,1,299,5,284.05,Returning,UPI,42,0.396,35
+TXN00296,2026-06-10,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Handbag,1,1299,15,1104.15,New,Cash,66,0.137,8
+TXN00234,2026-06-10,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids T-Shirt,2,599,15,1018.3,New,UPI,99,0.116,112
+TXN00019,2026-06-10,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Jeans,3,499,10,1347.3,Returning,Cash,114,0.132,117
+TXN00248,2026-06-10,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Kurti,1,1599,20,1279.2,Loyal,Credit Card,64,0.406,46
+TXN00056,2026-06-11,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Kurti,1,799,10,719.1,New,UPI,164,0.203,118
+TXN00245,2026-06-12,JACK$,Visakhapatnam,Shopping Mall,3000,Accessories,Cap,2,299,25,448.5,Loyal,Debit Card,116,0.231,3
+TXN00423,2026-06-12,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jacket,2,999,0,1998.0,Returning,Debit Card,180,0.099,99
+TXN00084,2026-06-12,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Sneakers,1,399,10,359.1,New,Credit Card,96,0.281,66
+TXN00452,2026-06-13,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids Jeans,2,999,15,1698.3,New,UPI,57,0.188,110
+TXN00153,2026-06-14,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Frock,1,1299,5,1234.05,New,Cash,133,0.105,114
+TXN00036,2026-06-16,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jeans,6,599,5,3414.3,Returning,Cash,76,0.213,39
+TXN00429,2026-06-17,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Top,2,399,5,758.1,New,Credit Card,126,0.146,46
+TXN00247,2026-06-18,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Sneakers,2,999,15,1698.3,Returning,UPI,101,0.315,41
+TXN00133,2026-06-19,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Handbag,2,1299,15,2208.3,Loyal,Debit Card,55,0.381,136
+TXN00317,2026-06-19,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Heels,5,1999,10,8995.5,Returning,Credit Card,126,0.289,120
+TXN00339,2026-06-19,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Formal Shoes,3,799,10,2157.3,New,Cash,91,0.353,127
+TXN00025,2026-06-19,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Formal Shoes,4,399,10,1436.4,Returning,Credit Card,149,0.162,118
+TXN00123,2026-06-20,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids T-Shirt,2,399,30,558.6,Loyal,UPI,97,0.412,88
+TXN00156,2026-06-21,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Sandals,2,799,0,1598.0,New,UPI,113,0.278,57
+TXN00181,2026-06-21,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jacket,3,1299,15,3312.45,Loyal,Debit Card,178,0.149,60
+TXN00099,2026-06-21,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Handbag,1,1599,10,1439.1,Returning,Debit Card,98,0.214,94
+TXN00279,2026-06-21,JACK$,Visakhapatnam,Shopping Mall,3000,Accessories,Sunglasses,3,1599,15,4077.45,New,UPI,124,0.258,75
+TXN00322,2026-06-22,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Sneakers,6,799,15,4074.9,Returning,Debit Card,90,0.348,1
+TXN00304,2026-06-23,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids Jeans,6,499,10,2694.6,Returning,Cash,106,0.165,118
+TXN00029,2026-06-24,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jacket,6,1599,25,7195.5,Returning,Cash,165,0.258,39
+TXN00257,2026-06-25,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jeans,3,1999,20,4797.6,New,Cash,113,0.115,92
+TXN00315,2026-06-25,JACK$,Visakhapatnam,Shopping Mall,3000,Men,T-Shirt,1,599,25,449.25,New,UPI,171,0.233,128
+TXN00455,2026-06-26,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids Jeans,1,2499,20,1999.2,Returning,Debit Card,115,0.405,73
+TXN00476,2026-06-26,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Shirt,2,1299,5,2468.1,New,Credit Card,67,0.363,122
+TXN00422,2026-06-27,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Top,6,599,0,3594.0,Loyal,UPI,140,0.151,26
+TXN00425,2026-06-28,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jacket,1,599,15,509.15,New,Credit Card,166,0.116,4
+TXN00113,2026-06-28,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Dress,4,399,0,1596.0,New,UPI,179,0.213,27
+TXN00161,2026-06-29,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jacket,1,1299,15,1104.15,Returning,UPI,111,0.093,86
+TXN00409,2026-06-29,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jeans,2,799,20,1278.4,New,UPI,94,0.231,125
+TXN00338,2026-06-29,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids T-Shirt,1,1999,25,1499.25,Loyal,UPI,142,0.193,82
+TXN00289,2026-06-30,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Sneakers,6,599,20,2875.2,New,Cash,118,0.249,115
+TXN00495,2026-06-30,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Dress,4,1299,20,4156.8,Returning,Credit Card,48,0.142,101
+TXN00465,2026-07-02,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Top,4,499,15,1696.6,New,Debit Card,43,0.087,149
+TXN00187,2026-07-03,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jeans,3,1999,10,5397.3,New,Cash,41,0.109,142
+TXN00389,2026-07-04,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Top,4,499,5,1896.2,New,Credit Card,133,0.128,27
+TXN00332,2026-07-05,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Shirt,2,499,5,948.1,New,UPI,172,0.296,114
+TXN00497,2026-07-05,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Formal Shoes,2,399,5,758.1,Returning,UPI,40,0.315,133
+TXN00474,2026-07-06,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Sandals,2,1299,0,2598.0,Returning,Debit Card,97,0.346,113
+TXN00128,2026-07-06,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Kurti,5,599,15,2545.75,Loyal,UPI,121,0.356,107
+TXN00170,2026-07-06,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jacket,3,399,5,1137.15,Returning,UPI,122,0.196,21
+TXN00199,2026-07-06,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Formal Shoes,3,399,0,1197.0,Loyal,Cash,163,0.091,7
+TXN00026,2026-07-07,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Dress,6,2499,10,13494.6,Returning,Debit Card,59,0.383,24
+TXN00292,2026-07-07,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Handbag,4,1299,25,3897.0,Returning,UPI,129,0.123,61
+TXN00072,2026-07-07,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Formal Shoes,2,1299,10,2338.2,Loyal,UPI,73,0.187,3
+TXN00380,2026-07-08,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Handbag,1,1599,10,1439.1,New,Credit Card,143,0.401,71
+TXN00005,2026-07-08,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Formal Shoes,1,1299,20,1039.2,New,UPI,126,0.407,112
+TXN00063,2026-07-09,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids Jeans,5,799,20,3196.0,Returning,Cash,45,0.201,112
+TXN00461,2026-07-09,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Formal Shoes,5,399,15,1695.75,New,Cash,135,0.084,32
+TXN00334,2026-07-09,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids T-Shirt,1,299,10,269.1,Returning,Credit Card,53,0.311,97
+TXN00144,2026-07-09,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Sneakers,4,999,5,3796.2,Returning,Cash,66,0.123,15
+TXN00028,2026-07-09,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Kurti,2,1599,10,2878.2,New,Credit Card,155,0.161,149
+TXN00053,2026-07-10,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids T-Shirt,1,1999,5,1899.05,Loyal,Cash,106,0.115,66
+TXN00294,2026-07-10,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jacket,4,999,20,3196.8,Loyal,UPI,175,0.224,49
+TXN00453,2026-07-11,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Shirt,1,599,0,599.0,New,Credit Card,69,0.304,16
+TXN00017,2026-07-11,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Jeans,3,399,10,1077.3,Loyal,UPI,113,0.215,105
+TXN00276,2026-07-11,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Dress,2,999,10,1798.2,Returning,UPI,49,0.2,121
+TXN00381,2026-07-11,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Sneakers,5,299,20,1196.0,Returning,UPI,50,0.289,144
+TXN00244,2026-07-13,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Top,4,599,25,1797.0,Returning,Debit Card,136,0.258,150
+TXN00254,2026-07-14,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Sneakers,1,299,15,254.15,Returning,UPI,47,0.285,52
+TXN00446,2026-07-15,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Sandals,3,999,0,2997.0,New,Debit Card,175,0.309,85
+TXN00349,2026-07-15,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Sneakers,2,599,20,958.4,Returning,Debit Card,108,0.305,131
+TXN00193,2026-07-17,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Top,3,2499,30,5247.9,New,Cash,97,0.249,31
+TXN00184,2026-07-17,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jeans,3,299,20,717.6,New,UPI,134,0.34,59
+TXN00151,2026-07-17,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jacket,5,599,10,2695.5,New,Credit Card,94,0.369,92
+TXN00205,2026-07-18,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Dress,5,499,0,2495.0,New,Cash,159,0.31,65
+TXN00091,2026-07-20,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Shirt,2,399,30,558.6,Returning,UPI,63,0.232,124
+TXN00197,2026-07-20,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Sneakers,3,1599,0,4797.0,Returning,UPI,42,0.178,40
+TXN00057,2026-07-21,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Dress,2,799,5,1518.1,Loyal,Cash,120,0.345,80
+TXN00186,2026-07-22,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jeans,6,2499,20,11995.2,Loyal,Debit Card,104,0.102,44
+TXN00396,2026-07-23,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jacket,3,399,0,1197.0,Returning,UPI,138,0.303,39
+TXN00482,2026-07-25,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Top,5,999,10,4495.5,New,UPI,179,0.316,24
+TXN00046,2026-07-25,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Dress,5,1999,5,9495.25,Returning,UPI,91,0.082,34
+TXN00110,2026-07-26,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Kurti,5,399,10,1795.5,Returning,Debit Card,100,0.283,5
+TXN00066,2026-07-27,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids Jeans,1,1299,0,1299.0,Returning,Debit Card,142,0.316,101
+TXN00229,2026-07-27,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Sneakers,6,499,10,2694.6,New,UPI,89,0.276,100
+TXN00246,2026-07-27,JACK$,Visakhapatnam,Shopping Mall,3000,Men,T-Shirt,4,299,15,1016.6,Loyal,Debit Card,130,0.162,62
+TXN00065,2026-08-01,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Shirt,5,399,15,1695.75,Returning,UPI,107,0.106,16
+TXN00100,2026-08-02,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids T-Shirt,4,999,25,2997.0,New,Cash,45,0.243,87
+TXN00439,2026-08-03,JACK$,Visakhapatnam,Shopping Mall,3000,Accessories,Watch,3,1299,0,3897.0,Returning,Debit Card,174,0.19,86
+TXN00061,2026-08-03,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Sneakers,3,1999,5,5697.15,New,UPI,132,0.284,52
+TXN00009,2026-08-03,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Sneakers,1,599,30,419.3,Loyal,UPI,179,0.175,140
+TXN00329,2026-08-03,JACK$,Visakhapatnam,Shopping Mall,3000,Accessories,Cap,5,499,10,2245.5,Loyal,Debit Card,152,0.35,86
+TXN00096,2026-08-04,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Jeans,4,1999,25,5997.0,Loyal,Cash,87,0.132,26
+TXN00070,2026-08-05,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Handbag,1,499,25,374.25,Returning,Cash,93,0.401,81
+TXN00449,2026-08-05,JACK$,Visakhapatnam,Shopping Mall,3000,Accessories,Wallet,3,499,15,1272.45,Loyal,Cash,150,0.185,64
+TXN00468,2026-08-05,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Heels,4,499,0,1996.0,Returning,Cash,79,0.268,15
+TXN00473,2026-08-05,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jeans,6,1599,5,9114.3,New,Credit Card,128,0.247,24
+TXN00054,2026-08-06,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jeans,3,1599,20,3837.6,Returning,UPI,154,0.354,143
+TXN00182,2026-08-06,JACK$,Visakhapatnam,Shopping Mall,3000,Men,T-Shirt,6,999,5,5694.3,Loyal,Credit Card,115,0.396,50
+TXN00397,2026-08-06,JACK$,Visakhapatnam,Shopping Mall,3000,Accessories,Cap,5,799,0,3995.0,New,UPI,89,0.203,101
+TXN00107,2026-08-06,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Formal Shoes,3,399,0,1197.0,Returning,Cash,71,0.419,104
+TXN00391,2026-08-08,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Handbag,1,399,0,399.0,Returning,Cash,152,0.305,25
+TXN00174,2026-08-08,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Top,6,2499,20,11995.2,Returning,UPI,88,0.363,13
+TXN00280,2026-08-08,JACK$,Visakhapatnam,Shopping Mall,3000,Accessories,Wallet,2,999,0,1998.0,Loyal,Debit Card,149,0.329,124
+TXN00119,2026-08-10,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Jeans,3,399,10,1077.3,Returning,Cash,63,0.375,150
+TXN00402,2026-08-10,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Sneakers,6,299,5,1704.3,Returning,UPI,94,0.12,57
+TXN00483,2026-08-11,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Dress,5,999,0,4995.0,New,Debit Card,109,0.279,2
+TXN00301,2026-08-11,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Kurti,4,599,10,2156.4,Returning,Credit Card,117,0.346,77
+TXN00410,2026-08-11,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jeans,5,599,20,2396.0,New,Credit Card,40,0.165,145
+TXN00498,2026-08-11,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Shirt,2,499,5,948.1,Returning,Cash,62,0.353,77
+TXN00176,2026-08-12,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Sandals,3,2499,10,6747.3,New,Credit Card,88,0.317,148
+TXN00462,2026-08-12,JACK$,Visakhapatnam,Shopping Mall,3000,Accessories,Cap,1,999,0,999.0,Returning,Cash,63,0.175,116
+TXN00177,2026-08-13,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Dress,5,599,10,2695.5,Returning,UPI,105,0.244,13
+TXN00154,2026-08-13,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jacket,4,1299,5,4936.2,New,Cash,135,0.289,51
+TXN00145,2026-08-13,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids Jeans,4,299,5,1136.2,Loyal,UPI,100,0.21,1
+TXN00267,2026-08-14,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Sandals,5,799,25,2996.25,Loyal,Debit Card,36,0.087,99
+TXN00240,2026-08-15,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Dress,4,1599,30,4477.2,New,UPI,175,0.293,138
+TXN00102,2026-08-15,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jacket,2,999,10,1798.2,Loyal,Credit Card,137,0.148,121
+TXN00454,2026-08-15,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Handbag,5,1599,30,5596.5,Returning,Credit Card,136,0.212,46
+TXN00363,2026-08-17,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids T-Shirt,2,299,15,508.3,Returning,Cash,150,0.164,61
+TXN00262,2026-08-18,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Jeans,4,799,0,3196.0,Returning,UPI,135,0.25,102
+TXN00120,2026-08-19,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Sneakers,4,399,5,1516.2,New,Cash,153,0.135,84
+TXN00115,2026-08-19,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Handbag,2,1999,10,3598.2,New,Credit Card,54,0.28,0
+TXN00087,2026-08-19,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Formal Shoes,2,2499,20,3998.4,Returning,UPI,73,0.135,99
+TXN00143,2026-08-19,JACK$,Visakhapatnam,Shopping Mall,3000,Accessories,Cap,6,1299,10,7014.6,Loyal,UPI,138,0.087,103
+TXN00285,2026-08-21,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Schoolwear,5,499,0,2495.0,Loyal,Cash,137,0.276,16
+TXN00160,2026-08-21,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Sneakers,4,1299,15,4416.6,Returning,Debit Card,113,0.382,86
+TXN00225,2026-08-21,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Sneakers,1,599,15,509.15,Returning,UPI,102,0.211,126
+TXN00478,2026-08-21,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jacket,3,1599,0,4797.0,Loyal,UPI,119,0.228,84
+TXN00149,2026-08-21,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Sneakers,5,999,5,4745.25,Loyal,Credit Card,129,0.246,109
+TXN00155,2026-08-22,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Kurti,5,599,10,2695.5,New,UPI,41,0.259,13
+TXN00022,2026-08-24,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Handbag,3,1999,0,5997.0,Loyal,Debit Card,81,0.293,55
+TXN00378,2026-08-25,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Heels,1,799,0,799.0,New,Credit Card,123,0.089,30
+TXN00067,2026-08-25,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Jeans,3,299,0,897.0,New,Cash,108,0.315,46
+TXN00121,2026-08-25,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Sneakers,6,399,15,2034.9,New,Credit Card,153,0.401,113
+TXN00395,2026-08-26,JACK$,Visakhapatnam,Shopping Mall,3000,Accessories,Sunglasses,6,1999,0,11994.0,Loyal,Cash,155,0.213,69
+TXN00259,2026-08-26,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Formal Shoes,3,1999,20,4797.6,Returning,UPI,134,0.388,50
+TXN00371,2026-08-27,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Dress,1,1299,30,909.3,New,UPI,91,0.323,8
+TXN00194,2026-08-28,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Top,6,599,10,3234.6,Loyal,Cash,154,0.123,78
+TXN00116,2026-08-29,JACK$,Visakhapatnam,Shopping Mall,3000,Men,T-Shirt,3,799,10,2157.3,Returning,Debit Card,83,0.367,43
+TXN00040,2026-08-30,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids T-Shirt,3,2499,10,6747.3,Loyal,Cash,72,0.262,46
+TXN00437,2026-08-30,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Sandals,4,999,0,3996.0,Returning,Cash,70,0.417,21
+TXN00129,2026-08-31,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Formal Shoes,5,1999,15,8495.75,Returning,Debit Card,85,0.1,20
+TXN00032,2026-09-01,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids Jeans,6,799,10,4314.6,New,Credit Card,134,0.189,2
+TXN00406,2026-09-03,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Handbag,6,2499,10,13494.6,Returning,Cash,146,0.154,67
+TXN00314,2026-09-03,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Shirt,6,499,25,2245.5,Returning,UPI,157,0.343,99
+TXN00185,2026-09-04,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Schoolwear,1,599,0,599.0,New,Debit Card,142,0.095,85
+TXN00318,2026-09-04,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Schoolwear,1,799,25,599.25,New,Cash,81,0.09,109
+TXN00418,2026-09-04,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Formal Shoes,2,999,20,1598.4,Returning,Credit Card,82,0.317,76
+TXN00384,2026-09-04,JACK$,Visakhapatnam,Shopping Mall,3000,Accessories,Sunglasses,3,399,5,1137.15,New,Credit Card,66,0.097,135
+TXN00451,2026-09-06,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Schoolwear,1,1999,20,1599.2,Returning,Cash,88,0.193,117
+TXN00404,2026-09-07,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids T-Shirt,4,1299,10,4676.4,Returning,Cash,97,0.399,80
+TXN00411,2026-09-07,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Handbag,2,599,5,1138.1,Loyal,Debit Card,154,0.093,66
+TXN00062,2026-09-09,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Sneakers,4,2499,10,8996.4,New,UPI,164,0.137,106
+TXN00071,2026-09-09,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Sandals,3,2499,15,6372.45,New,Credit Card,48,0.283,107
+TXN00202,2026-09-09,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Frock,1,599,15,509.15,Loyal,Credit Card,160,0.209,8
+TXN00214,2026-09-09,JACK$,Visakhapatnam,Shopping Mall,3000,Men,T-Shirt,6,499,5,2844.3,New,Cash,84,0.275,148
+TXN00295,2026-09-10,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Frock,3,1999,10,5397.3,New,Credit Card,157,0.42,38
+TXN00021,2026-09-10,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Sneakers,6,799,15,4074.9,Loyal,UPI,167,0.237,89
+TXN00436,2026-09-10,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Heels,4,1299,10,4676.4,Returning,Credit Card,172,0.266,100
+TXN00239,2026-09-11,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Kurti,2,499,0,998.0,Loyal,Debit Card,119,0.196,20
+TXN00220,2026-09-11,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Shirt,5,599,5,2845.25,New,Credit Card,175,0.263,48
+TXN00401,2026-09-11,JACK$,Visakhapatnam,Shopping Mall,3000,Men,T-Shirt,1,999,5,949.05,Loyal,Debit Card,179,0.364,77
+TXN00108,2026-09-12,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Shirt,5,999,0,4995.0,Loyal,Debit Card,131,0.366,48
+TXN00189,2026-09-12,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids Jeans,5,1599,10,7195.5,Loyal,UPI,149,0.41,127
+TXN00297,2026-09-13,JACK$,Visakhapatnam,Shopping Mall,3000,Men,T-Shirt,1,599,25,449.25,Returning,UPI,145,0.323,148
+TXN00414,2026-09-14,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Dress,2,499,25,748.5,Loyal,Credit Card,103,0.184,29
+TXN00105,2026-09-14,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jacket,4,999,20,3196.8,New,Credit Card,161,0.299,40
+TXN00419,2026-09-15,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Jeans,3,1599,25,3597.75,New,Cash,145,0.254,62
+TXN00015,2026-09-15,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Jeans,3,399,20,957.6,Returning,Debit Card,88,0.409,56
+TXN00200,2026-09-16,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Sneakers,4,999,30,2797.2,Returning,Debit Card,53,0.38,11
+TXN00150,2026-09-16,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Shirt,3,1999,20,4797.6,Returning,Cash,175,0.205,135
+TXN00052,2026-09-17,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Formal Shoes,3,2499,5,7122.15,Loyal,Cash,144,0.259,86
+TXN00086,2026-09-18,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Frock,5,1999,25,7496.25,Loyal,UPI,134,0.29,6
+TXN00350,2026-09-19,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jacket,2,799,20,1278.4,New,UPI,62,0.154,62
+TXN00213,2026-09-20,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jacket,2,1999,10,3598.2,Returning,Cash,120,0.383,126
+TXN00264,2026-09-21,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Kurti,1,1999,25,1499.25,Returning,UPI,88,0.379,99
+TXN00044,2026-09-21,JACK$,Visakhapatnam,Shopping Mall,3000,Accessories,Wallet,1,2499,0,2499.0,Loyal,Debit Card,85,0.33,39
+TXN00343,2026-09-21,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Top,2,1599,15,2718.3,Loyal,UPI,170,0.225,57
+TXN00441,2026-09-21,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Frock,6,299,0,1794.0,New,Credit Card,133,0.201,82
+TXN00324,2026-09-21,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Jeans,2,1999,5,3798.1,New,Cash,169,0.099,53
+TXN00480,2026-09-22,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Jeans,5,399,0,1995.0,Loyal,Cash,81,0.089,134
+TXN00041,2026-09-22,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Frock,5,1599,0,7995.0,New,Debit Card,81,0.219,129
+TXN00209,2026-09-24,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Jeans,3,599,0,1797.0,New,Cash,122,0.089,101
+TXN00092,2026-09-25,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Shirt,3,2499,0,7497.0,Returning,Debit Card,63,0.401,98
+TXN00427,2026-09-25,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Heels,3,1999,10,5397.3,Returning,Cash,117,0.415,31
+TXN00464,2026-09-25,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Dress,2,1599,15,2718.3,Returning,UPI,161,0.295,24
+TXN00164,2026-09-25,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jacket,1,1599,20,1279.2,New,Cash,107,0.21,48
+TXN00353,2026-09-26,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Heels,3,2499,0,7497.0,New,UPI,125,0.162,142
+TXN00058,2026-09-27,JACK$,Visakhapatnam,Shopping Mall,3000,Accessories,Belt,2,499,10,898.2,New,Credit Card,43,0.264,24
+TXN00002,2026-09-28,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Kurti,1,399,25,299.25,Returning,UPI,39,0.255,82
+TXN00060,2026-09-28,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Kurti,4,1999,5,7596.2,Returning,UPI,51,0.218,121
+TXN00340,2026-09-28,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jacket,1,1599,30,1119.3,Returning,UPI,150,0.3,81
+TXN00027,2026-09-28,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids Jeans,4,999,15,3396.6,Returning,UPI,42,0.279,82
+TXN00379,2026-09-29,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Top,5,2499,20,9996.0,New,UPI,54,0.208,80
+TXN00470,2026-09-30,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Kurti,3,1599,5,4557.15,Returning,Cash,84,0.138,111
+TXN00311,2026-09-30,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jacket,2,999,30,1398.6,New,Credit Card,73,0.139,19
+TXN00037,2026-10-01,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Jeans,5,999,10,4495.5,Loyal,Debit Card,97,0.251,144
+TXN00360,2026-10-02,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Sneakers,4,999,10,3596.4,Returning,UPI,127,0.403,147
+TXN00018,2026-10-04,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Sandals,1,2499,20,1999.2,Returning,Credit Card,118,0.236,33
+TXN00450,2026-10-04,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Jeans,5,599,0,2995.0,Loyal,Credit Card,136,0.269,50
+TXN00251,2026-10-04,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jacket,6,999,5,5694.3,New,Debit Card,106,0.118,33
+TXN00268,2026-10-04,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Dress,4,999,5,3796.2,Returning,Credit Card,63,0.238,121
+TXN00383,2026-10-05,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids T-Shirt,4,2499,20,7996.8,Returning,Credit Card,87,0.097,56
+TXN00467,2026-10-06,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids T-Shirt,3,999,10,2697.3,Loyal,Cash,72,0.254,146
+TXN00365,2026-10-06,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids T-Shirt,5,599,10,2695.5,Loyal,Credit Card,87,0.412,16
+TXN00305,2026-10-07,JACK$,Visakhapatnam,Shopping Mall,3000,Accessories,Cap,2,599,15,1018.3,New,Debit Card,158,0.144,11
+TXN00069,2026-10-07,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jeans,1,2499,0,2499.0,New,UPI,44,0.28,144
+TXN00191,2026-10-07,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jacket,2,1999,20,3198.4,Returning,UPI,51,0.288,97
+TXN00287,2026-10-07,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Jeans,1,1999,5,1899.05,Returning,Debit Card,179,0.13,67
+TXN00417,2026-10-07,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jeans,4,1999,10,7196.4,Returning,Credit Card,88,0.153,15
+TXN00300,2026-10-08,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids T-Shirt,3,299,15,762.45,Loyal,UPI,110,0.308,108
+TXN00265,2026-10-10,JACK$,Visakhapatnam,Shopping Mall,3000,Men,T-Shirt,4,399,20,1276.8,Returning,Credit Card,104,0.299,148
+TXN00146,2026-10-10,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Jeans,4,1299,25,3897.0,Returning,Credit Card,89,0.135,149
+TXN00109,2026-10-10,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Top,5,599,20,2396.0,Loyal,Cash,160,0.416,49
+TXN00131,2026-10-11,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids Jeans,2,299,30,418.6,Returning,Credit Card,124,0.121,6
+TXN00271,2026-10-11,JACK$,Visakhapatnam,Shopping Mall,3000,Accessories,Cap,1,1599,20,1279.2,Loyal,UPI,79,0.215,131
+TXN00481,2026-10-11,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Frock,1,799,15,679.15,Returning,UPI,65,0.147,39
+TXN00137,2026-10-11,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Shirt,5,399,10,1795.5,New,Debit Card,152,0.232,23
+TXN00432,2026-10-12,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Sneakers,2,2499,5,4748.1,New,UPI,111,0.305,117
+TXN00390,2026-10-12,JACK$,Visakhapatnam,Shopping Mall,3000,Accessories,Belt,4,1599,25,4797.0,New,Cash,148,0.396,136
+TXN00141,2026-10-13,JACK$,Visakhapatnam,Shopping Mall,3000,Accessories,Wallet,6,299,30,1255.8,Returning,Cash,64,0.193,149
+TXN00469,2026-10-13,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Sneakers,5,1999,25,7496.25,Returning,UPI,105,0.095,21
+TXN00269,2026-10-13,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Formal Shoes,4,299,10,1076.4,Returning,Cash,61,0.276,133
+TXN00328,2026-10-15,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Sandals,5,599,15,2545.75,Loyal,UPI,140,0.172,79
+TXN00307,2026-10-15,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Kurti,1,499,15,424.15,Returning,UPI,157,0.099,46
+TXN00250,2026-10-16,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids T-Shirt,4,1999,20,6396.8,Returning,Credit Card,69,0.289,103
+TXN00400,2026-10-16,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Handbag,1,299,0,299.0,Returning,Cash,113,0.359,98
+TXN00085,2026-10-16,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Handbag,5,299,25,1121.25,New,Cash,114,0.304,96
+TXN00408,2026-10-17,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Sneakers,2,1599,0,3198.0,Returning,Debit Card,142,0.392,124
+TXN00372,2026-10-17,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Jeans,4,1599,15,5436.6,New,UPI,140,0.187,62
+TXN00097,2026-10-20,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Sneakers,4,799,25,2397.0,Returning,Credit Card,156,0.29,45
+TXN00190,2026-10-21,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jeans,5,599,10,2695.5,Returning,UPI,105,0.312,32
+TXN00016,2026-10-21,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Sneakers,5,399,20,1596.0,Returning,Credit Card,137,0.126,37
+TXN00165,2026-10-22,JACK$,Visakhapatnam,Shopping Mall,3000,Footwear,Sneakers,1,2499,10,2249.1,Returning,Credit Card,148,0.19,139
+TXN00064,2026-10-23,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Kurti,6,999,20,4795.2,New,Cash,67,0.172,147
+TXN00211,2026-10-25,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Dress,4,499,25,1497.0,New,UPI,176,0.154,60
+TXN00313,2026-10-26,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids T-Shirt,6,1999,10,10794.6,New,UPI,93,0.283,64
+TXN00076,2026-10-28,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Kurti,4,399,5,1516.2,Returning,Cash,107,0.117,120
+TXN00435,2026-10-29,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Top,4,1599,10,5756.4,Returning,Debit Card,164,0.306,77
+TXN00288,2026-10-29,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Handbag,3,2499,20,5997.6,Loyal,Credit Card,143,0.2,46
+TXN00272,2026-10-31,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Jeans,2,1299,15,2208.3,New,Cash,38,0.406,136
+TXN00252,2026-10-31,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Kurti,1,1299,20,1039.2,New,UPI,158,0.32,65
+TXN00228,2026-10-31,JACK$,Visakhapatnam,Shopping Mall,3000,Men,Shirt,4,999,0,3996.0,Returning,Cash,36,0.26,130
+TXN00219,2026-10-31,JACK$,Visakhapatnam,Shopping Mall,3000,Women,Top,6,2499,25,11245.5,Returning,Debit Card,158,0.24,92
+TXN00059,2026-10-31,JACK$,Visakhapatnam,Shopping Mall,3000,Kids,Kids Jeans,4,2499,10,8996.4,New,Credit Card,143,0.315,36
