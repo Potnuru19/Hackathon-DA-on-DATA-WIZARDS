@@ -1,0 +1,234 @@
+CREATE DATABASE fashion19_retail;
+Query OK, 1 row affected (0.08 sec)
+
+mysql> USE fashion19_retail;
+Database changed
+mysql> CREATE TABLE sales (
+    ->     bill_id VARCHAR(20) PRIMARY KEY,
+    ->     store_id VARCHAR(20),
+    ->     product_id VARCHAR(20),
+    ->     quantity INT,
+    ->     mrp DECIMAL(10,2),
+    ->     selling_price DECIMAL(10,2),
+    ->     discount DECIMAL(10,2)
+    -> );
+Query OK, 0 rows affected (0.11 sec)
+
+mysql> INSERT INTO product
+    -> (product_id, category, sub_category, size, colour, season)
+    -> VALUES
+    -> ('P101', 'Clothing', 'T-Shirt', 'M', 'Black', 'Summer'),
+    -> ('P102', 'Clothing', 'Jeans', 'L', 'Blue', 'Winter'),
+    -> ('P103', 'Footwear', 'Sneakers', '8', 'White', 'Summer'),
+    -> ('P104', 'Accessories', 'Watch', 'Free', 'Black', 'All Season'),
+    -> ('P105', 'Clothing', 'Shirt', 'XL', 'White', 'Winter');
+ERROR 1146 (42S02): Table 'fashion19_retail.product' doesn't exist
+mysql> ^C
+mysql> INSERT INTO sales
+    -> (bill_id, store_id, product_id, quantity, mrp, selling_price, discount)
+    -> VALUES
+    -> ('B101', 'S101', 'P101', 2, 1000, 900, 100),
+    -> ('B102', 'S102', 'P102', 1, 2000, 1800, 200),
+    -> ('B103', 'S101', 'P103', 3, 3000, 2700, 300),
+    -> ('B104', 'S103', 'P104', 1, 1500, 1350, 150),
+    -> ('B105', 'S102', 'P105', 2, 2500, 2250, 250);
+Query OK, 5 rows affected (0.04 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+mysql> CREATE TABLE product (
+    ->     product_id VARCHAR(20) PRIMARY KEY,
+    ->     category VARCHAR(20),
+    ->     sub_category VARCHAR(100),
+    ->     size VARCHAR(10),
+    ->     colour VARCHAR(30),
+    ->     season VARCHAR(30)
+    -> );
+Query OK, 0 rows affected (0.10 sec)
+
+mysql> INSERT INTO product
+    -> (product_id, category, sub_category, size, colour, season)
+    -> VALUES
+    -> ('P101', 'Clothing', 'T-Shirt', 'M', 'Black', 'Summer'),
+    -> ('P102', 'Clothing', 'Jeans', 'L', 'Blue', 'Winter'),
+    -> ('P103', 'Footwear', 'Sneakers', '8', 'White', 'Summer'),
+    -> ('P104', 'Accessories', 'Watch', 'Free', 'Black', 'All Season'),
+    -> ('P105', 'Clothing', 'Shirt', 'XL', 'White', 'Winter');
+Query OK, 5 rows affected (0.01 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+mysql> CREATE TABLE stock (
+    ->     stock_id VARCHAR(20) PRIMARY KEY,
+    ->     product_id VARCHAR(20),
+    ->     stock_date DATE,
+    ->     opening_stock INT,
+    ->     received_qty INT,
+    ->     closing_stock INT,
+    ->
+    ->     FOREIGN KEY (product_id)
+    ->     REFERENCES product(product_id)
+    -> );
+Query OK, 0 rows affected (0.15 sec)
+
+mysql> INSERT INTO stock
+    -> (stock_id, product_id, stock_date, opening_stock,
+    -> received_qty, closing_stock)
+    -> VALUES
+    -> ('ST101', 'P101', '2026-10-01', 100, 50, 120),
+    -> ('ST102', 'P102', '2026-10-01', 80, 30, 90),
+    -> ('ST103', 'P103', '2026-10-02', 60, 20, 50),
+    -> ('ST104', 'P104', '2026-10-02', 40, 10, 35),
+    -> ('ST105', 'P105', '2026-10-03', 90, 25, 100);
+Query OK, 5 rows affected (0.08 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+mysql> CREATE TABLE store (
+    ->     transaction_id VARCHAR(20),
+    ->     date DATE,
+    ->     store_id VARCHAR(20),
+    ->     city VARCHAR(100),
+    ->     store_type VARCHAR(50),
+    ->     store_area_sqft INT,
+    ->     product_category VARCHAR(50),
+    ->     product_name VARCHAR(100),
+    ->     units_sold INT,
+    ->     unit_price_inr DECIMAL(10,2),
+    ->     discount_percent INT,
+    ->     sales_revenue_inr DECIMAL(12,2),
+    ->     customer_segment VARCHAR(50),
+    ->     payment_method VARCHAR(50),
+    ->     daily_store_footfall INT,
+    ->     conversion_rate DECIMAL(5,3),
+    ->     stock_remaining_units INT
+    -> );
+Query OK, 0 rows affected (0.12 sec)
+
+mysql> INSERT INTO store
+    -> (transaction_id, date, store_id, city, store_type,
+    -> store_area_sqft, product_category, product_name,
+    -> units_sold, unit_price_inr, discount_percent,
+    -> sales_revenue_inr, customer_segment, payment_method,
+    -> daily_store_footfall, conversion_rate, stock_remaining_units)
+    -> VALUES
+    -> ('T101', '2026-10-01', 'S101', 'Hyderabad', 'Mall',
+    -> 2000, 'Clothing', 'T-Shirt', 2, 1000, 10,
+    -> 1800, 'Regular', 'UPI', 250, 0.080, 120),
+    ->
+    -> ('T102', '2026-10-02', 'S102', 'Vijayawada', 'Retail',
+    -> 1500, 'Clothing', 'Jeans', 1, 2000, 10,
+    -> 1800, 'Premium', 'Card', 180, 0.060, 90),
+    ->
+    -> ('T103', '2026-10-03', 'S103', 'Visakhapatnam', 'Mall',
+    -> 2500, 'Footwear', 'Sneakers', 3, 1000, 10,
+    -> 2700, 'Regular', 'Cash', 300, 0.100, 50);
+Query OK, 3 rows affected (0.08 sec)
+Records: 3  Duplicates: 0  Warnings: 0
+
+mysql> CREATE TABLE promotion (
+    ->     promo_id VARCHAR(20) PRIMARY KEY,
+    ->     promo_type VARCHAR(100),
+    ->     start_date DATE,
+    ->     end_date DATE,
+    ->     discount_percent INT
+    -> );
+Query OK, 0 rows affected (0.10 sec)
+
+mysql> INSERT INTO promotion
+    -> (promo_id, promo_type, start_date, end_date, discount_percent)
+    -> VALUES
+    -> ('PR101', 'Festival Sale', '2026-10-01', '2026-10-10', 10),
+    -> ('PR102', 'Diwali Sale', '2026-10-15', '2026-11-05', 20),
+    -> ('PR103', 'Clearance Sale', '2026-10-05', '2026-10-20', 15),
+    -> ('PR104', 'Summer Sale', '2026-04-01', '2026-04-30', 25),
+    -> ('PR105', 'Weekend Offer', '2026-10-25', '2026-10-31', 10);
+Query OK, 5 rows affected (0.07 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| company            |
+| da6                |
+| da7                |
+| fashion19_retail   |
+| fashion_retail     |
+| fashions_retail    |
+| information_schema |
+| mysql              |
+| performance_schema |
+| products           |
+| sales_analysis     |
+| sys                |
+| trendwear          |
++--------------------+
+13 rows in set (0.00 sec)
+
+mysql> show tables;
++----------------------------+
+| Tables_in_fashion19_retail |
++----------------------------+
+| product                    |
+| promotion                  |
+| sales                      |
+| stock                      |
+| store                      |
++----------------------------+
+5 rows in set (0.00 sec)
+
+mysql> select*from sales;
++---------+----------+------------+----------+---------+---------------+----------+
+| bill_id | store_id | product_id | quantity | mrp     | selling_price | discount |
++---------+----------+------------+----------+---------+---------------+----------+
+| B101    | S101     | P101       |        2 | 1000.00 |        900.00 |   100.00 |
+| B102    | S102     | P102       |        1 | 2000.00 |       1800.00 |   200.00 |
+| B103    | S101     | P103       |        3 | 3000.00 |       2700.00 |   300.00 |
+| B104    | S103     | P104       |        1 | 1500.00 |       1350.00 |   150.00 |
+| B105    | S102     | P105       |        2 | 2500.00 |       2250.00 |   250.00 |
++---------+----------+------------+----------+---------+---------------+----------+
+5 rows in set (0.00 sec)
+
+mysql> select*from product;
++------------+-------------+--------------+------+--------+------------+
+| product_id | category    | sub_category | size | colour | season     |
++------------+-------------+--------------+------+--------+------------+
+| P101       | Clothing    | T-Shirt      | M    | Black  | Summer     |
+| P102       | Clothing    | Jeans        | L    | Blue   | Winter     |
+| P103       | Footwear    | Sneakers     | 8    | White  | Summer     |
+| P104       | Accessories | Watch        | Free | Black  | All Season |
+| P105       | Clothing    | Shirt        | XL   | White  | Winter     |
++------------+-------------+--------------+------+--------+------------+
+5 rows in set (0.00 sec)
+
+mysql> select*from store;
++----------------+------------+----------+---------------+------------+-----------------+------------------+--------------+------------+----------------+------------------+-------------------+------------------+----------------+----------------------+-----------------+-----------------------+
+| transaction_id | date       | store_id | city          | store_type | store_area_sqft | product_category | product_name | units_sold | unit_price_inr | discount_percent | sales_revenue_inr | customer_segment | payment_method | daily_store_footfall | conversion_rate | stock_remaining_units |
++----------------+------------+----------+---------------+------------+-----------------+------------------+--------------+------------+----------------+------------------+-------------------+------------------+----------------+----------------------+-----------------+-----------------------+
+| T101           | 2026-10-01 | S101     | Hyderabad     | Mall       |            2000 | Clothing         | T-Shirt      |          2 |        1000.00 |               10 |           1800.00 | Regular          | UPI            |                  250 |           0.080 |                   120 |
+| T102           | 2026-10-02 | S102     | Vijayawada    | Retail     |            1500 | Clothing         | Jeans        |          1 |        2000.00 |               10 |           1800.00 | Premium          | Card           |                  180 |           0.060 |                    90 |
+| T103           | 2026-10-03 | S103     | Visakhapatnam | Mall       |            2500 | Footwear         | Sneakers     |          3 |        1000.00 |               10 |           2700.00 | Regular          | Cash           |                  300 |           0.100 |                    50 |
++----------------+------------+----------+---------------+------------+-----------------+------------------+--------------+------------+----------------+------------------+-------------------+------------------+----------------+----------------------+-----------------+-----------------------+
+3 rows in set (0.00 sec)
+
+mysql> select*from stock;
++----------+------------+------------+---------------+--------------+---------------+
+| stock_id | product_id | stock_date | opening_stock | received_qty | closing_stock |
++----------+------------+------------+---------------+--------------+---------------+
+| ST101    | P101       | 2026-10-01 |           100 |           50 |           120 |
+| ST102    | P102       | 2026-10-01 |            80 |           30 |            90 |
+| ST103    | P103       | 2026-10-02 |            60 |           20 |            50 |
+| ST104    | P104       | 2026-10-02 |            40 |           10 |            35 |
+| ST105    | P105       | 2026-10-03 |            90 |           25 |           100 |
++----------+------------+------------+---------------+--------------+---------------+
+5 rows in set (0.00 sec)
+
+mysql> select*from promotion;
++----------+----------------+------------+------------+------------------+
+| promo_id | promo_type     | start_date | end_date   | discount_percent |
++----------+----------------+------------+------------+------------------+
+| PR101    | Festival Sale  | 2026-10-01 | 2026-10-10 |               10 |
+| PR102    | Diwali Sale    | 2026-10-15 | 2026-11-05 |               20 |
+| PR103    | Clearance Sale | 2026-10-05 | 2026-10-20 |               15 |
+| PR104    | Summer Sale    | 2026-04-01 | 2026-04-30 |               25 |
+| PR105    | Weekend Offer  | 2026-10-25 | 2026-10-31 |               10 |
++----------+----------------+------------+------------+------------------+
+5 rows in set (0.00 sec)
